@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/icon.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/icon.jpg">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo-container">
+                <img src="./images/icon.jpg" alt="Logo" class="logo_img">
+            </div>
+            <a href="index.html" class="logo">Fresh<span>MART</span></a>
+        <nav>
+            <ul>
+               <li><a href = 'index.html' > Home </a></li>
+               <li><a href = 'aboutus.html' > About us  </a></li>
+               <li><a href = 'dairyproucts.html' > Dairy Products </a></li>
+               <li><a href = 'Vegetables.html' > Vegetables </a></li>
+               <li><a href = 'Cosmetics and Skin care products.html' > Cosmetics and Skin care products </a></li>
+               <li><a href = 'order.html' > Order</a></li>
+               <li><a href = 'Loyalty Registration.html' > Loyalty Registration </a></li>
+             
+               </ul>
+            </nav>
+            </header>
+
+    <h1 class="main-header">Order Groceries Here</h1>
+
+<div class="section" id="fruits">
+    <h2>Fruits</h2>
+    <div class="item">
+        <span>Apple: Rs 140/kg</span>
+        <input type="number" step="0.1" min="0" id="apple-qty" value="0">
+        <button class="add-to-cart" data-name="Apple" data-price="140" data-qty-id="apple-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Orange: Rs 270/kg</span>
+        <input type="number" step="0.1" min="0" id="orange-qty" value="0">
+        <button class="add-to-cart" data-name="Orange" data-price="270" data-qty-id="orange-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Grapes: Rs 600/kg</span>
+        <input type="number" step="0.1" min="0" id="grapes-qty" value="0">
+        <button class="add-to-cart" data-name="Grapes" data-price="600" data-qty-id="grapes-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Banana: Rs 300/kg</span>
+        <input type="number" step="0.1" min="0" id="banana-qty" value="0">
+        <button class="add-to-cart" data-name="Banana" data-price="300" data-qty-id="banana-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Papaya: Rs 130/kg</span>
+        <input type="number" step="0.1" min="0" id="papaya-qty" value="0">
+        <button class="add-to-cart" data-name="Papaya" data-price="130" data-qty-id="papaya-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Pineapple: Rs 290/kg</span>
+        <input type="number" step="0.1" min="0" id="pineapple-qty" value="0">
+        <button class="add-to-cart" data-name="Pineapple" data-price="290" data-qty-id="pineapple-qty">Add to Cart</button>
+    </div>
+
+<div class="item">
+    <span>Mandarine: Rs 320/kg</span>
+    <input type="number" step="0.1" min="0" id="mandarine-qty" value="0">
+    <button class="add-to-cart" data-name="Mandarine" data-price="320" data-qty-id="mandarine-qty">Add to Cart</button>
+</div>
+<div class="item">
+    <span>Mango: Rs 400/kg</span>
+    <input type="number" step="0.1" min="0" id="mango-qty" value="0">
+    <button class="add-to-cart" data-name="Mango" data-price="400" data-qty-id="mango-qty">Add to Cart</button>
+</div>
+<div class="item">
+    <span>Watermelon: Rs 270/kg</span>
+    <input type="number" step="0.1" min="0" id="watermelon-qty" value="0">
+    <button class="add-to-cart" data-name="Watermelon" data-price="270" data-qty-id="watermelon-qty">Add to Cart</button>
+</div>
+<div class="item">
+    <span>Cherry: Rs 490/kg</span>
+    <input type="number" step="0.1" min="0" id="cherry-qty" value="0">
+    <button class="add-to-cart" data-name="Cherry" data-price="490" data-qty-id="cherry-qty">Add to Cart</button>
+</div>
+
+</div>
+
+<!--vegetables-->
+
+
+<div class="section" id="Vegetables">
+    <h2>Vegetables</h2>
+  
+    <div class="item">
+        <span>Carrot: Rs 500/kg</span>
+        <input type="number" step="0.1" min="0" id="Carrot-qty" value="0">
+        <button class="add-to-cart" data-name="Carrot" data-price="500" data-qty-id="Carrot-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Beans - Rs 300/kg</span>
+        <input type="number" step="0.1" min="0" id="Beans-qty" value="0">
+        <button class="add-to-cart" data-name="beans" data-price="300" data-qty-id="Beans-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Beetrrot - Rs 340/kg</span>
+        <input type="number" step="0.1" min="0" id="Beetroot-qty" value="0">
+        <button class="add-to-cart" data-name="beetroot" data-price="340" data-qty-id="beetroot-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Cabbage - Rs 300/kg</span>
+        <input type="number" step="0.1" min="0" id="cabbage-qty" value="0">
+        <button class="add-to-cart" data-name="Cabbage" data-price="300" data-qty-id="cabbage-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Brocoli - Rs 1200/kg</span>
+        <input type="number" step="0.1" min="0" id="Brocoli-qty" value="0">
+        <button class="add-to-cart" data-name="Brocoli" data-price="1200" data-qty-id="Brocoli-qty">Add to Cart</button>
+    </div>
+
+<div class="item">
+    <span>Cucumber: Rs 160/kg</span>
+    <input type="number" step="0.1" min="0" id="Cucumber-qty" value="0">
+    <button class="add-to-cart" data-name="Cucumber" data-price="500" data-qty-id="Cucumber-qty">Add to Cart</button>
+</div>
+<div class="item">
+    <span>Potatoes : Rs 340/kg</span>
+    <input type="number" step="0.1" min="0" id="Potatoes-qty" value="0">
+    <button class="add-to-cart" data-name="Potatoes" data-price="340" data-qty-id="Potatoes-qty">Add to Cart</button>
+</div>
+<div class="item">
+    <span>Salad leaves: Rs 460/kg</span>
+    <input type="number" step="0.1" min="0" id="Salad_leaves-qty" value="0">
+    <button class="add-to-cart" data-name="Salad_leaves" data-price="340" data-qty-id="Salad_leaves-qty">Add to Cart</button>
+</div>
+<div class="item">
+    <span>Cauliflower: Rs 1280/kg</span>
+    <input type="number" step="0.1" min="0" id="Cauliflower-qty" value="0">
+    <button class="add-to-cart" data-name="Cauliflower" data-price="1280" data-qty-id="Cauliflower-qty">Add to Cart</button>
+</div>
+<div class="item">
+    <span>Raddish - Rs 420/kg</span>
+    <input type="number" step="0.1" min="0" id="Raddish-qty" value="0">
+    <button class="add-to-cart" data-name="Raddish" data-price="420" data-qty-id="Raddish-qty">Add to Cart</button>
+</div>
+</div>
+
+
+<!--Dairy Products -->
+<div class="section" id="dairy">
+    <h2>Dairy Produce</h2>
+    <div class="item">
+        <span>Whole fresh Milk : Rs 450/liter</span>
+        <input type="number" min="0" id="Whole_fresh_Milk-qty" value="0">
+        <button class="add-to-cart" data-name="Whole_fresh_Milk" data-price="450" data-qty-id="Whole_fresh_Milk-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Low-Fat fresh milk : Rs 470/liter</span>
+        <input type="number" min="0" id="Low_Fat_fresh_milk-qty" value="0">
+        <button class="add-to-cart" data-name="Low_Fat_fresh_milk" data-price="470" data-qty-id="Low_Fat_fresh_milk-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Swiss Cheese : Rs 1100 /kg</span>
+        <input type="number" min="0" id="Swiss_Cheese-qty" value="0">
+        <button class="add-to-cart" data-name="Swiss_Cheese" data-price="1100" data-qty-id="Swiss_Cheese-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Mozzarella Cheese : Rs 1400/kg</span>
+        <input type="number" min="0" id="Mozzarella_Cheese-qty" value="0">
+        <button class="add-to-cart" data-name="Mozzarella_Cheese" data-price="1400" data-qty-id="Mozzarella_Cheese-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Vanila Ice Cream : Rs 800/liter</span>
+        <input type="number" min="0" id="Vanila_Ice_Cream-qty" value="0">
+        <button class="add-to-cart" data-name="Vanila_Ice_Cream" data-price="800" data-qty-id="Vanila_Ice_Cream-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span> Chocolate Ice Cream : Rs 850/liter</span>
+        <input type="number" min="0" id=" Chocolate_Ice_Cream-qty" value="0">
+        <button class="add-to-cart" data-name=" Chocolate_Ice_Cream" data-price="800" data-qty-id=" Chocolate_Ice_Cream-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span> Strawberry Ice Cream : Rs 800 /liter</span>
+        <input type="number" min="0" id=" Strawberry_Ice_Cream-qty" value="0">
+        <button class="add-to-cart" data-name=" Strawberry_Ice_Cream" data-price="800" data-qty-id=" Strawberry_Ice_Cream-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Anchor Butter : Rs 900/kg</span>
+        <input type="number" min="0" id="Anchor_Butter-qty" value="0">
+        <button class="add-to-cart" data-name="Anchor_Butter" data-price="900" data-qty-id="Anchor_Butter-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Higland Butter : Rs 900/kg </span>
+        <input type="number" min="0" id="Higland_Butter-qty" value="0">
+        <button class="add-to-cart" data-name="Higland_Butter" data-price="800" data-qty-id="Higland_Butter-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span> Highland Yogurt : Rs 90/ One Yougurt</span>
+        <input type="number" min="0" id=" Highland_Yogurt-qty" value="0">
+        <button class="add-to-cart" data-name=" Highland_Yogurt" data-price="90" data-qty-id=" Highland_Yogurt-qty">Add to Cart</button>
+    </div>
+</div>
+</div>
+
+<!--Meat and Seafood-->
+
+<div class="section" id="meat-seafood">
+    <h2>Meat and Seafood</h2>
+    <div class="item">
+        <span>Chicken - Rs 800/kg</span>
+        <input type="number" step="0.1" min="0" id="chicken-qty" value="0">
+        <button class="add-to-cart" data-name="Chicken" data-price="800" data-qty-id="chicken-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Beef - Rs 1200/kg</span>
+        <input type="number" step="0.1" min="0" id="beef-qty" value="0">
+        <button class="add-to-cart" data-name="Beef" data-price="1200" data-qty-id="beef-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Salmon - Rs 700/kg</span>
+        <input type="number" step="0.1" min="0" id="salmon-qty" value="0">
+        <button class="add-to-cart" data-name="Salmon" data-price="700" data-qty-id="salmon-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Fish - Rs 600/kg</span>
+        <input type="number" step="0.1" min="0" id="fish-qty" value="0">
+        <button class="add-to-cart" data-name="fish" data-price="600" data-qty-id="fish-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Prawns - Rs 800/kg</span>
+        <input type="number" step="0.1" min="0" id="prawns-qty" value="0">
+        <button class="add-to-cart" data-name="prawns" data-price="800" data-qty-id="prawns-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Cuttlefish - Rs 700/kg</span>
+        <input type="number" step="0.1" min="0" id="Cuttlefish-qty" value="0">
+        <button class="add-to-cart" data-name="Cuttlefish" data-price="700" data-qty-id="Cuttlefish-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Pork - Rs 1000/kg</span>
+        <input type="number" step="0.1" min="0" id="pork-qty" value="0">
+        <button class="add-to-cart" data-name="pork" data-price="1000" data-qty-id="pork-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Mutton - Rs 600/kg</span>
+        <input type="number" step="0.1" min="0" id="Mutton-qty" value="0">
+        <button class="add-to-cart" data-name="Mutton" data-price="600" data-qty-id="Mutton-qty">Add to Cart</button>
+    </div>
+</div>
+
+<!--baking items-->
+
+<div class="section" id="baking-cooking">
+    <h2>Baking and Cooking Ingredients</h2>
+    <div class="item">
+        <span>Flour : Rs 250/kg</span>
+        <input type="number" step="0.1" min="0" id="flour-qty" value="0">
+        <button class="add-to-cart" data-name="Flour" data-price="250" data-qty-id="flour-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Sugar : Rs 140/kg</span>
+        <input type="number" step="0.1" min="0" id="sugar-qty" value="0">
+        <button class="add-to-cart" data-name="Sugar" data-price="140" data-qty-id="sugar-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Baking Powder : Rs 320/pack</span>
+        <input type="number" min="0" id="bakingpowder-qty" value="0">
+        <button class="add-to-cart" data-name="Baking Powder" data-price="320" data-qty-id="bakingpowder-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Olive Oil : Rs 3000/liter</span>
+        <input type="number" min="0" id="oliveoil-qty" value="0">
+        <button class="add-to-cart" data-name="Olive Oil" data-price="3000" data-qty-id="oliveoil-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Vanilla Extract : Rs 400/pack</span>
+        <input type="number" min="0" id="vanilla-qty" value="0">
+        <button class="add-to-cart" data-name="Vanilla Extract" data-price="400" data-qty-id="vanilla-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Yeast : Rs 200/pack</span>
+        <input type="number" min="0" id="yeast-qty" value="0">
+        <button class="add-to-cart" data-name="Yeast" data-price="200" data-qty-id="yeast-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Food Colouring(Yellow) : Rs 200/pack</span>
+        <input type="number" min="0" id="Food Colouring(Yellow)-qty" value="0">
+        <button class="add-to-cart" data-name="Food Colouring(Yellow)" data-price="200" data-qty-id="Food Colouring(Yellow)-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Food Colouring(pink) : Rs 200/pack</span>
+        <input type="number" min="0" id="Food Colouring(pink)-qty" value="0">
+        <button class="add-to-cart" data-name="Food Colouring(pink)" data-price="200" data-qty-id="Food Colouring(pink)-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Food Colouring(Yellow) : Rs 200/pack</span>
+        <input type="number" min="0" id="Food Colouring(green)-qty" value="0">
+        <button class="add-to-cart" data-name="Food Colouring(green)" data-price="200" data-qty-id="Food Colouring(green)-qty">Add to Cart</button>
+    </div>
+    <div class="item">
+        <span>Food Colouring(orange) : Rs 200/pack</span>
+        <input type="number" min="0" id="Food Colouring(orange)-qty" value="0">
+        <button class="add-to-cart" data-name="Food Colouring(orange)" data-price="200" data-qty-id="Food Colouring(orange)-qty">Add to Cart</button>
+    </div>
+</div>
+
+
+<h2>Shopping Cart</h2>
+<table id="cart-table">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price per kg</th>
+            <th>Quantity (kg)</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody id="cart-items"></tbody>
+</table>
+<p id="total-price">Total Price: Rs 0</p>
+<button id="buy-button">Buy Now</button>
+<button id="add-to-favorites">Add to Favorites</button>
+<button id="apply-favorites">Apply Favorites</button>
+
+<script src="script.js"></script>
+
+<!--footer-->
+<footer>
+    <div class="footer">
+        <div class="footer-info">
+            <h3>Contact Us</h3>
+            <p>Email: info@freshmart.com</p>
+            <p>Phone: 0112 123 123</p>
+
+        </div>
+        
+        <div class="footer-links">
+            <div class="circles"></div>
+            <div class="circles"></div>
+            <a href="#" class="logo">Fresh<span>MART</span></a>
+            <ul>
+               <li><a href = 'index.html' > Home </a></li>
+               <li><a href = 'aboutus.html' > About us  </a></li>
+               <li><a href = 'dairyproucts.html' > Dairy Products </a></li>
+               <li><a href = 'Vegetables.html' > Vegetables </a></li>
+               <li><a href = 'Cosmetics and Skin care products.html' > Cosmetics and Skin care products </a></li>
+               <li><a href = 'order.html' > Order</a></li>
+               </ul>
+        
+        </div>
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://x.com/?mx=2"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="copyright">
+        <p>&copy; 2024 Grocery Supermarket. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
+
